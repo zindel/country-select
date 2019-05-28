@@ -7,10 +7,10 @@ Assuming you have the latest [esy](https://esy.sh/) globally installed.
 $ yarn
 $ esy install
 $ yarn start
-$ yarn server # in separate terminal
+$ yarn server # in a separate terminal
 ```
 
-Application could be accessed at `http://localhost:3002`
+The demo could be accessed at `http://localhost:3002`
 
 # Building
 
