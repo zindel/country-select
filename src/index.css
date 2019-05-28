@@ -1,0 +1,84 @@
+@import url("~flag-icon-css/css/flag-icon.css");
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+body, input, button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.example {
+  padding: 16px;
+  position: relative;
+}
+
+.example>.description {
+  margin-bottom: 4px;
+}
+
+.custom>button {
+  background: hsla(218, 50%, 10%, 0.1) !important;
+  color: blue;
+  font-weight: bold;
+}
+
+
+.country-select {
+  position: relative;
+}
+
+.country-select>button {
+  background: white;
+  font-size: 1em;
+  padding: 6px 12px;
+  border: solid 1px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  outline: none;
+}
+
+.country-select>button:focus {
+  border-color: blue !important;
+}
+
+.country-select>button>span {
+  text-align: left;
+  display: inline-block;
+  min-width: 100px;
+}
+
+.country-select>.country-select-menu {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px hsla(218, 50%, 10%, 0.1), 0 4px 11px hsla(218, 50%, 10%, 0.1);
+  margin-top: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+.country-select>.country-select-clickaway {
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.country-select .flag-icon {
+  margin-right: 8px;
+}
