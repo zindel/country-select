@@ -1,6 +1,6 @@
 # CountrySelect in Reason
 
-Assuming you have the latest [esy](https://esy.sh/) globall installed.
+Assuming you have the latest [esy](https://esy.sh/) globally installed.
 
 # Development
 ```Bash
